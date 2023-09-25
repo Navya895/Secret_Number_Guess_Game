@@ -7,8 +7,9 @@ using namespace std;
 
 int main() {
     srand(time(0));
-int minNumber,maxNumber;
-    cin>>minNnumbr;
+    const int minNumber;
+    const int maxNumber;
+    cin>>minNumber;
     cin>>maxNumber;
 
     char playAgain;
